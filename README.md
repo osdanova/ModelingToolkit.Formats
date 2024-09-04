@@ -2,28 +2,26 @@
 
 A library to work with 3D models.
 
-The Formats package extends the core functionality with utilities to import and export models as multiple formats.
+## Packages
 
-Modeling Toolkit uses Gltf's coordinate system:
+| Package | Description |
+| - | :- |
+| [ModelingToolkit](https://github.com/osdanova/ModelingToolkit) | A tool to process and display 3D models |
+| [ModelingToolkit.Formats](https://github.com/osdanova/ModelingToolkit.Formats) | An extension of core that supports importing and exporting using other formats |
+| [ModelingToolkit.Core](https://github.com/osdanova/ModelingToolkit.Core) | The very basic platform agnostic objects to work with 3D models |
 
-* X positive: Right
-* Y positive: Up
-* Z positive: Forward
+## Dependencies
+
+* ModelingToolkit.Core
+* [SharpGLTF.Toolkit - 1.0.1](https://github.com/vpenades/SharpGLTF)
+* [AssimpNet - 5.0.0-beta1](https://bitbucket.org/Starnick/assimpnet/src/master/) (Future FBX implementation)
 
 ### Currently supported formats:
 
 | Format | Export | Import |
 | :- | :-: | :-: |
-| GLTF | In Progress | No |
-| FBX | No | No |
+| GLTF | Model | - |
+| FBX | Model | Model |
 
-### Modeling Toolkit packages
-
-* [ModelingToolkit](https://github.com/osdanova/ModelingToolkit): A tool to process and display 3D models. Note: At the time of writing ModelingToolkit does not use Core but it's inteded that it uses it in the future.
-* [ModelingToolkit.Core](https://github.com/osdanova/ModelingToolkit.Core): The Core package contains the very basic platform agnostic objects to work with 3D models.
-
-
-### Dependencies:
-
-* [SharpGLTF](https://github.com/vpenades/SharpGLTF)
-* [Assimp.Net 5.0.0](https://bitbucket.org/Starnick/assimpnet/src/master/) (Future FBX implementation)
+## Usage
+Use the MtPorter class to import scenes to MtScenes and export them.

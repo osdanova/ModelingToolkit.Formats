@@ -8,10 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="SharpGLTF.Toolkit" Version="1.0.1" />
+	<PackageReference Include="AssimpNet" Version="5.0.0-beta1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ModelingToolkit.Core\ModelingToolkit.Core\ModelingToolkit.Core.csproj" />
+	  <ProjectReference Include="..\ModelingToolkit.Core\ModelingToolkit.Core\ModelingToolkit.Core.csproj" />
   </ItemGroup>
 
 </Project>

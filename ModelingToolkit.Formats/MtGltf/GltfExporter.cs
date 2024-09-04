@@ -1,17 +1,12 @@
 ﻿using ModelingToolkit.Core;
-using SharpGLTF.Animations;
 using SharpGLTF.Geometry;
 using SharpGLTF.Geometry.VertexTypes;
 using SharpGLTF.Materials;
 using SharpGLTF.Scenes;
-using SharpGLTF.Schema2;
 using System.Numerics;
 
-namespace ModelingToolkit.Formats
+namespace ModelingToolkit.Formats.MtGltf
 {
-    using static ModelingToolkit.Core.MtScene;
-    using CURVE_QUATERNION = CurveBuilder<Quaternion>;
-    using CURVE_VECTOR3 = CurveBuilder<Vector3>;
     // Structure definition
     using MESH = MeshBuilder<VertexPositionNormal, VertexColor1Texture1, VertexJoints8>;
     using VERTEX = VertexBuilder<VertexPositionNormal, VertexColor1Texture1, VertexJoints8>;

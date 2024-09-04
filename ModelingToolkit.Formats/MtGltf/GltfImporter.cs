@@ -1,6 +1,6 @@
 ﻿using ModelingToolkit.Core;
 
-namespace ModelingToolkit.Formats
+namespace ModelingToolkit.Formats.MtGltf
 {
     public class GltfImporter
     {
