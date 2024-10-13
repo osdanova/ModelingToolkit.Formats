@@ -14,9 +14,9 @@ A library to work with 3D models.
 
 * ModelingToolkit.Core
 * [SharpGLTF.Toolkit - 1.0.1](https://github.com/vpenades/SharpGLTF)
-* [AssimpNet - 5.0.0-beta1](https://bitbucket.org/Starnick/assimpnet/src/master/) (Future FBX implementation)
+* [AssimpNet - 5.0.0-beta1](https://bitbucket.org/Starnick/assimpnet/src/master/)
 
-### Currently supported formats:
+### Currently supported formats
 
 | Format | Export | Import |
 | :- | :-: | :-: |
